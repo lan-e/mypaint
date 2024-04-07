@@ -4,41 +4,26 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- PLEASE NO CHANGES BELOW THIS LINE (UNTIL I SAY SO) -->
   <script language="javascript" type="text/javascript" src="libraries/p5.min.js"></script>
   <script language="javascript" type="text/javascript" src="sketch_240405b.js"></script>
-  <!-- OK, YOU CAN MAKE CHANGES BELOW THIS LINE AGAIN -->
-
-  <style>
-    body {
-      font-family: Roboto;
-      padding: 0;
-      margin: 0;
-    }
-    canvas {
-      border: 1px solid #000;
-    }
-    button {
-      background: none;
-      border: 1px solid #000;
-      border-radius: 4px;
-      padding: 6px 12px;
-      font-size: 14px;
-    }
-    button:hover {
-      background: #eee;
-      cursor: pointer;
-    }
-    input {
-      background: none;   
-      border: none;
-    }
-    .toggleHidden{
-      visibility: visible;
-    }
-  </style>
+  
+  <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
+  <div class="overlay" onclick="toggleInfo()"></div>
+  <div class="welcomeMsg">
+    <h2>Welcome!</h2>
+    This is a Paint like app.</br>
+    Shortcuts are:
+    <ul>
+      <li>P (pen)</li>
+      <li>C (circle)</li>
+      <li>R (rectangle)</li>
+      <li>F (fill)</li>
+      <li>D (delete)</li>
+      <li>S (save)</li>
+    </ul>
+  </div>
 </body>
 </html>

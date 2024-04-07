@@ -1,0 +1,92 @@
+body {
+  font-family: Roboto;
+  padding: 0;
+  margin: 0;
+  user-select: none;
+  width: 100vw;
+  height: 100vh;
+}
+canvas {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  margin-top: 100px;
+}
+button {
+  background: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  padding: 6px 12px;
+  font-size: 14px;
+}
+button:hover {
+  background: #eee;
+  cursor: pointer;
+}
+input {
+  background: none;   
+  border: none;
+}
+img, input {
+  cursor: pointer;
+}
+.toolsBg {
+   width: 100%;
+   height: 50px;
+   background: #ccc;
+}
+.welcomeMsg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #444;
+  color: #eee;
+  padding: 48px;
+  padding-bottom: 40px;
+  border-radius: 10px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.welcomeMsg h2 {
+  margin-top: 0;
+}
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #444;
+  opacity: 0.5;
+  z-index: 1;
+}
+.toggleInfo {
+  display: none;
+}
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 15px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+.slider:hover {
+  opacity: 1;
+}
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background: #04AA6D;
+  cursor: pointer;
+}
+.slider::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  background: #04AA6D;
+  cursor: pointer;
+}

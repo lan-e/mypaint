@@ -27,10 +27,9 @@
   </div>
   
   <script>
-    window.addEventListener('scroll', function(event) {
-      event.preventDefault();
-      return false;
-    }, { passive: false });
+    document.body.addEventListener('touchstart', function(e) {
+      e.preventDefault();
+    });
   </script>
 </body>
 </html>

@@ -5,7 +5,7 @@ body {
   user-select: none;
   width: 100vw;
   height: 100vh;
-	overflow: hidden;
+  overflow: hidden;
 }
 canvas {
   border-top: 1px solid #000;
@@ -42,8 +42,7 @@ img, input {
   transform: translate(-50%, -50%);
   background: #444;
   color: #eee;
-  padding: 40px;
-  padding-bottom: 40px;
+  padding: 36px;
   border-radius: 10px;
   z-index: 2;
   display: flex;

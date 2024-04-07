@@ -9,8 +9,8 @@ let pen, circle, rectangle, bucket, trash, input, download, importImg, img, stro
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight - 180);
   
-  info.position(windowWidth - 110, 5);
-  trash.position(windowWidth - 50, 5);
+  info.position(windowWidth - 110, 10);
+  trash.position(windowWidth - 50, 10);
   save.position(windowWidth - 40, windowHeight - 70);
   input.position(10, windowHeight - 70);
   errorMsg.position(windowWidth / 2, windowHeight/2);
